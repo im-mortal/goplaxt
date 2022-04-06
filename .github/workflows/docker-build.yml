@@ -42,7 +42,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=raw,value=latest,enable=${{ matrix.arch == "amd64" }}
+            type=raw,value=latest,enable=${{ matrix.arch == 'amd64' }}
             type=raw,priority=500,value=${{ matrix.arch }}-latest
 
       - name: Log in to the Container registry
