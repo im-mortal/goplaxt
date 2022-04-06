@@ -17,10 +17,10 @@ import (
 	"github.com/etherlabsio/healthcheck"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/xanderstrike/goplaxt/lib/config"
-	"github.com/xanderstrike/goplaxt/lib/store"
-	"github.com/xanderstrike/goplaxt/lib/trakt"
-	"github.com/xanderstrike/plexhooks"
+	"github.com/im-mortal/goplaxt/lib/config"
+	"github.com/im-mortal/goplaxt/lib/store"
+	"github.com/im-mortal/goplaxt/lib/trakt"
+	"github.com/im-mortal/plexhooks"
 )
 
 var storage store.Store
